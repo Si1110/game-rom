@@ -215,21 +215,6 @@ tmp/
 *.txt
 *.json
 # OpenCode large context guard
-res/covers/
-res/**/*.png
-res/**/*.jpg
-res/**/*.jpeg
-res/**/*.webp
-res/**/*.gif
-res/**/*.avif
-res/**/*.ico
-*.png
-*.jpg
-*.jpeg
-*.webp
-*.gif
-*.avif
-*.ico
 tmp/
 web_browser_data/
 logs/
@@ -250,15 +235,6 @@ logs/
 
 
 # Auto-ignored files over 5MB during git rebuild
-/platforms/fc.html
-/platforms/gba.html
-/platforms/nds.html
-/platforms/sfc.html
-/sections/section-49.html
-/sections/section-50.html
-/sections/section-52.html
-/sections/section-53.html
-/sections/section-55.html
 /tmp/new_games_from_excel.json
 /tmp/new_games_prepared.json
 /tmp/sfc_enriched.json
