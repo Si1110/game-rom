@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 基础标题 -->
+    <title>{{ SITE_TITLE | safe }}</title>
+    
+    <!-- 静态 SEO 元标签 -->
+    <meta name="description" content="26000+款经典怀旧游戏ROM中文版合集，涵盖GBA/FC/SFC/N64/NDS/PS1/PS2/PS3/WII等全平台，含宝可梦、马里奥、塞尔达传说、最终幻想等系列中文汉化版，支持模拟器运行。">
+    <meta name="keywords" content="怀旧游戏,经典游戏,ROM下载,中文ROM,中文汉化版,GBA游戏,FC游戏,SFC游戏,GBC游戏,N64游戏,NDS游戏,3DS游戏,PS2游戏,PS3游戏,PS1游戏,PSP游戏,WII游戏,宝可梦,精灵宝可梦,超级马里奥,马里奥,塞尔达传说,塞尔达,最终幻想,洛克人,热血系列,魂斗罗,龙珠,火焰纹章,恶魔城,高达,游戏王,牧场物语,星之卡比,逆转裁判,合金弹头,索尼克,高级战争,火影忍者,拳皇,超级机器人大战,黄金太阳,银河战士,节奏天国,F-Zero,任天堂,红白机,GameBoy,GameBoyAdvance,超级任天堂,GBA模拟器,FC模拟器,SFC模拟器,童年游戏,80后游戏,90后游戏,老游戏,复古游戏,模拟器游戏,汉化游戏,游戏ROM合集,怀旧游戏大全,模拟器中文版ROM">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Game ROM Collection">
+    <meta name="theme-color" content="#1a1a2e">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://si1110.github.io/game-rom/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ SITE_TITLE | safe }}">
+    <meta property="og:description" content="26000+款经典怀旧游戏ROM中文版合集，涵盖GBA/FC/SFC/N64/NDS/PS等全平台，含宝可梦、马里奥、塞尔达等系列汉化版。">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://si1110.github.io/game-rom/docs/logo.png">
+    <meta property="og:url" content="https://si1110.github.io/game-rom/">
+    <meta property="og:site_name" content="经典怀旧游戏 ROM 合集">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="120">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ SITE_TITLE | safe }}">
+    <meta name="twitter:description" content="26000+款经典怀旧游戏ROM中文版合集，涵盖GBA/FC/SFC/N64/NDS/PS全平台，含宝可梦、马里奥、塞尔达等系列汉化版">
+    <meta name="twitter:image" content="https://si1110.github.io/game-rom/docs/logo.png">
+    
+    <!-- 网站图标 -->
+    <link rel="icon" href="./docs/logo.png" type="image/png">
+    
+    <!-- 样式表 -->
+    <link href="./docs/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./docs/css/style.css">
+    
+    <!-- Bootstrap 框架脚本 -->
+    <script src="./docs/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- CDN 加速配置（必须最先加载）-->
+    <script src="./docs/js/cdn-config.js"></script>
+    
+    <!-- SEO 增强脚本（补充 JS 驱动元标签） -->
+    <script src="./docs/js/seo-meta.js"></script>
+    
+    <!-- 结构化数据（JSON-LD） -->
+    <script type="application/ld+json">
+{{ jsonld_website | safe }}
+    </script>
+    <script type="application/ld+json">
+{{ jsonld_itemlist | safe }}
+    </script>
+</head>
+<body>
+    <!-- Hero 横幅 -->
+    <div class="hero-banner">
+      <div class="hero-bg" style="background-image: url('./docs/hero-bg.png');"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+          <h1 class="hero-title">经典怀旧游戏 ROM 合集</h1>
+          <p class="hero-desc">本站大部分游戏ROM均是中文汉化版，下载后可直接在模拟器上运行</p>
+          <div class="hero-search">
+              <div class="input-group">
+                  <input type="text" class="form-control" placeholder="搜索游戏名称..." aria-label="搜索" id="heroSearchInput">
+                  <button class="btn btn-primary" type="button" id="heroSearchBtn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+                      搜索游戏
+                  </button>
+              </div>
+          </div>
+          <p style="color: rgba(255,255,255,0.5); font-size: 13px; margin-top: 12px; text-shadow: 0 1px 6px rgba(0,0,0,0.5);">如果链接失效了，联系QQ3962799299</p>
+      </div>
+    </div>
+
+    <div class="main-after-hero">
+      <!-- 隐藏的全局搜索控件（供 global-search.js 使用） -->
+      <div style="display: none;">
+          <input type="text" id="globalSearchInput">
+          <button id="globalSearchBtn"></button>
+      </div>
+        <hr/>
+
+      <div class="container my-5">
+          <h2 style="text-align: center; padding: 15px; margin-bottom: 20px; font-weight: bold; color: #d4af37; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+              经典怀旧游戏 ROM 合集
+          </h2>
+          
+          <div class="row mt-4">
+<!-- 游戏系列列表 -->
+{{ covers }}
+
+          </div>
+      </div>
+
+      <!-- 热门游戏模拟器 -->
+      <div class="platform-section">
+        <h2 class="platform-section-title">🎮 热门游戏模拟器</h2>
+        <p class="platform-section-desc">按平台分类浏览经典怀旧游戏，点击进入对应游戏列表</p>
+        <div class="platform-grid">
+{{ platform_grid }}
+        </div>
+      </div>
+
+      <hr/>
+
+      <!-- 系列目录悬浮侧栏 -->
+      {{ quick_nav | safe }}
+
+      <!-- 热门游戏模拟器侧栏 -->
+      {{ emu_sidebar | safe }}
+
+      <!-- 返回主页按钮 -->
+      <a href="./index.html" class="back-to-home" title="返回主页">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+          </svg>
+      </a>
+      
+      <!-- 回到顶部按钮 -->
+      <button id="backToTop" class="back-to-top" onclick="scrollToTop()" title="回到顶部">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+          </svg>
+      </button>
+      
+      <!-- 搜索结果模态框 -->
+      <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="searchModalLabel">搜索结果</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="searchResults">
+                    <div class="text-center text-muted">
+                        <p>正在搜索...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 脚本 -->
+    <script>
+        // 回到顶部功能
+        window.addEventListener('scroll', function() {
+            const scrollY = window.scrollY || document.documentElement.scrollTop;
+            const backToTopBtn = document.getElementById('backToTop');
+            if (backToTopBtn) {
+                backToTopBtn.style.display = scrollY > 200 ? 'block' : 'none';
+            }
+        }, { passive: true });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // 页面加载统计（可选）
+        console.log('⚡ 加载时间：', performance.now().toFixed(2) + 'ms');
+    </script>
+    
+    <!-- 全局搜索功能 -->
+    <script src="./docs/js/global-search.js"></script>
+    
+    <!-- Hero 搜索同步 -->
+    <script>
+        var heroInput = document.getElementById('heroSearchInput');
+        var heroBtn = document.getElementById('heroSearchBtn');
+        var topInput = document.getElementById('globalSearchInput');
+        var topBtn = document.getElementById('globalSearchBtn');
+        if (heroInput && topInput) {
+            heroInput.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    topInput.value = heroInput.value;
+                    topBtn.click();
+                }
+            });
+            heroBtn.addEventListener('click', function() {
+                topInput.value = heroInput.value;
+                topBtn.click();
+            });
+        }
+    </script>
+    
+    <!-- 徽章数字自动统计 -->
+    <script src="./docs/js/count-badges.js"></script>
+    
+    <!-- 页面保护脚本 -->
+    <script src="./docs/js/protection.min.js" defer></script>
+</body>
+</html>

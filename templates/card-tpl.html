@@ -1,0 +1,30 @@
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card mb-3 bold-border" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <a href="{{ poster_path }}" target="_blank">
+                  <img src="{{ poster_path }}" class="card-img" alt="{{ title }}">
+                </a>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title">{{ title }}</h4>
+                  <ul class="list-group">
+                    <li class="list-group-item list-group-item-primary">{{ description }}</li>
+                    <li class="list-group-item list-group-item-success">语言：{{ language }}</li>
+                    <li class="list-group-item list-group-item-info">平台：{{ platform }}</li>
+                    <li class="list-group-item list-group-item-danger">下载：
+                      <a href="{{ download_link }}" target="_blank">[百度网盘]</a>
+                    </li>
+                    <li class="list-group-item list-group-item-warning">
+                      {{ format_badges | safe }}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">{{ card_foot }}</small>
+            </div>
+          </div>
+        </div>
