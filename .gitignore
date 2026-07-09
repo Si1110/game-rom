@@ -235,9 +235,5 @@ logs/
 
 
 # Auto-ignored files over 5MB during git rebuild
-/tmp/new_games_from_excel.json
-/tmp/new_games_prepared.json
-/tmp/sfc_enriched.json
-/web_browser_data/cache2/entries/0F9EF43940294184BE18F196AECBC71EFCF32EDC
-/web_browser_data/startupCache/scriptCache-current.bin
-
+tmp
+web_browser_data

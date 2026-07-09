@@ -1,9 +1,9 @@
 name: 生成游戏 ROM 网站页面
 
 on:
-  push:
-    branches:
-      - res
+  # push:
+    # branches:
+    #   - res
   workflow_dispatch:
 
 permissions:
